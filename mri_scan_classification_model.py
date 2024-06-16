@@ -163,7 +163,7 @@ model.compile(loss=tf.keras.losses.CategoricalCrossentropy(),
 
 # Fit the model
 history = model.fit(train_data,
-                    epochs=20,
+                    epochs=30,
                     steps_per_epoch=len(train_data),
                     validation_data=validation_data,
                     validation_steps=len(validation_data))
